@@ -141,6 +141,9 @@ namespace SearchAlgorithm_126_D
                     case 3:
                         Console.WriteLine("Exit.");
                         break;
+                    default:
+                        Console.WriteLine("Error");
+                        break;
                 }
             }
         }
