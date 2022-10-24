@@ -148,7 +148,7 @@ namespace SearchAlgorithm_126_D
                 //to exit from the console
                 Console.WriteLine("\n\nPress Return to exit.");
                 Console.ReadLine(); 
-            }
+            }while (pilihanmenu != 3);
         }
     }
 }
