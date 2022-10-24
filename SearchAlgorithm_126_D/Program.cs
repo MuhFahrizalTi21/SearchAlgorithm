@@ -138,6 +138,9 @@ namespace SearchAlgorithm_126_D
                         myList.input();
                         myList.BinarySearch();
                         break;
+                    case 3:
+                        Console.WriteLine("Exit.");
+                        break;
                 }
             }
         }
