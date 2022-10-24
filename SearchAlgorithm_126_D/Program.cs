@@ -145,6 +145,9 @@ namespace SearchAlgorithm_126_D
                         Console.WriteLine("Error");
                         break;
                 }
+                //to exit from the console
+                Console.WriteLine("\n\nPress Return to exit.");
+                Console.ReadLine(); 
             }
         }
     }
