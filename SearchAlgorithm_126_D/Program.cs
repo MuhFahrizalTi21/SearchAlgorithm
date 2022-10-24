@@ -85,7 +85,10 @@ namespace SearchAlgorithm_126_D
             int ctr;
             do
             {
-                //Accept the 
+                //Accept the number to be searched
+                Console.Write("\n Enter the element you want to search: ");
+                int item = Convert.ToInt32(Console.ReadLine());
+
             }
         }
         static void Main(string[] args)
