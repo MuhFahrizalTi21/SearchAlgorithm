@@ -93,18 +93,18 @@ namespace SearchAlgorithm_126_D
                 for (i = 0; i < n; i++)
                 {
                     ctr++;
-                    if (arr[i] == item )
+                    if (arr[i] == item)
                     {
                         Console.WriteLine("\n " + item.ToString() + "Found st position " + (i + 1).ToString());
                         break;
                     }
                 }
                 if (i == n)
-                    Console.WriteLine("\n"+ item.ToString() + "not found in the array ");
+                    Console.WriteLine("\n" + item.ToString() + "not found in the array ");
                 Console.WriteLine("\nNumber of Comparison : " + ctr);
                 Console.Write("\nContinue search (y/n) : ");
                 ch = Char.Parse(Console.ReadLine());
-            }
+            } while ((ch == 'y') || (ch == 'Y'));
         }
         static void Main(string[] args)
         {
