@@ -81,7 +81,9 @@ namespace SearchAlgorithm_126_D
         public void LinearSearch()
         {
             char ch;
-            
+            //search for number to be comparison
+            int ctr;
+           
         }
         static void Main(string[] args)
         {
