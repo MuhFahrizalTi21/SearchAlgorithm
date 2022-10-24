@@ -99,6 +99,11 @@ namespace SearchAlgorithm_126_D
                         break;
                     }
                 }
+                if (i == n)
+                    Console.WriteLine("\n"+ item.ToString() + "not found in the array ");
+                Console.WriteLine("\nNumber of Comparison : " + ctr);
+                Console.Write("\nContinue search (y/n) : ");
+                ch = Char.Parse(Console.ReadLine());
             }
         }
         static void Main(string[] args)
