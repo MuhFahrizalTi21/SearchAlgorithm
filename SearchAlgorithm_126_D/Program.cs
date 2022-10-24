@@ -89,6 +89,16 @@ namespace SearchAlgorithm_126_D
                 Console.Write("\n Enter the element you want to search: ");
                 int item = Convert.ToInt32(Console.ReadLine());
 
+                ctr = 0;
+                for (i = 0; i < n; i++)
+                {
+                    ctr++;
+                    if (arr[i] == item )
+                    {
+                        Console.WriteLine("\n " + item.ToString() + "Found st position " + (i + 1).ToString());
+                        break;
+                    }
+                }
             }
         }
         static void Main(string[] args)
