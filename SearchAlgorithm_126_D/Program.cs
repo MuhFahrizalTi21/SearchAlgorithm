@@ -122,7 +122,14 @@ namespace SearchAlgorithm_126_D
 
                 switch(pilihanmenu)
                 {
-                 
+                    case 1:
+                        Console.WriteLine("");
+                        Console.WriteLine("................");
+                        Console.WriteLine("Linear Search");
+                        Console.WriteLine("................");
+                        myList.input();
+                        myList.LinearSearch();
+                        break;
 
                 }
             }
