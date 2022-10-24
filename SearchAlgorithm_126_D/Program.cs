@@ -109,6 +109,7 @@ namespace SearchAlgorithm_126_D
         static void Main(string[] args)
         {
             Program myList = new Program();
+            int pilihanmenu; 
         }
     }
 }
