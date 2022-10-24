@@ -112,7 +112,13 @@ namespace SearchAlgorithm_126_D
             int pilihanmenu;
             do
             {
-               
+                Console.WriteLine("Menu Option");
+                Console.WriteLine("=================");
+                Console.WriteLine("1. Linear Search");
+                Console.WriteLine("2. Binary Search");
+                Console.WriteLine("3. Exit");
+                Console.WriteLine("Enter your choice (1,2,3) : ");
+                Console.WriteLine("");
             }
         }
     }
