@@ -83,7 +83,10 @@ namespace SearchAlgorithm_126_D
             char ch;
             //search for number to be comparison
             int ctr;
-           
+            do
+            {
+                //Accept the 
+            }
         }
         static void Main(string[] args)
         {
