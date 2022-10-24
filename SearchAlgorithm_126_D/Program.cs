@@ -119,6 +119,12 @@ namespace SearchAlgorithm_126_D
                 Console.WriteLine("3. Exit");
                 Console.WriteLine("Enter your choice (1,2,3) : ");
                 Console.WriteLine("");
+
+                switch(pilihanmenu)
+                {
+                 
+
+                }
             }
         }
     }
